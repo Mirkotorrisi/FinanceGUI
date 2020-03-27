@@ -15,7 +15,7 @@ public interface savePdf {
 		//Method to save pdf for each mortgage selected. Uses Pdf Writer
 	    DecimalFormat f = new DecimalFormat("##.00");
 		Document document = new Document();
-		PdfWriter.getInstance(document, new FileOutputStream("C:\\Users\\LuLele\\Desktop\\mortgages\\"+account.getName()+" Mortgage.pdf"));	 
+		PdfWriter.getInstance(document, new FileOutputStream("C:\\Users\\User\\Desktop\\mortgages\\"+account.getName()+" Mortgage.pdf"));	 
 		document.open();
 
 		PdfPTable table = new PdfPTable(4);
